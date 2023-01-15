@@ -1,9 +1,9 @@
 # team9231
  Haydarpasa Panthers Website Source
-Yapılacaklar Listesi
--İçerik düzenlenicek
--Renkler Değişicek
--Logo ve resimler Ayarlanıcak
--Sponsorluk paketleri adam edilecek
--CSS animasyonlarında sıkıntı var onu da düzelck
--en yukarı couresel eklensin (en son yapın)
+Yapılacaklar Listesi \n
+-İçerik düzenlenicek\n
+-Renkler Değişicek\n
+-Logo ve resimler Ayarlanıcak\n
+-Sponsorluk paketleri adam edilecek\n
+-CSS animasyonlarında sıkıntı var onu da düzelck\n
+-en yukarı couresel eklensin (en son yapın)\n
