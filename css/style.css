@@ -1,7 +1,12 @@
 /* Base */
 
-html {
+html,
+body {
     overflow-x: hidden;
+}
+
+body {
+    position: relative
 }
 
 body {
@@ -112,15 +117,27 @@ body:after {
     padding: 2.5em 0;
 }
 
+.rowluson {
+    flex-wrap: nowrap !important;
+}
+
 @media (min-width: 768px) {
     .site-section {
         padding: 5em 0;
     }
 }
 
+@media (max-width: 768px) {
+    .rowluson {
+        flex-wrap: wrap !important;
+    }
+}
+
 .site-footer {
     padding: 4em 0;
     background: #771114;
+    /* background-image: url("../images/panthers/banner.JPG"); */
+    opacity: 0.9;
 }
 
 @media (min-width: 768px) {
@@ -134,18 +151,18 @@ body:after {
 }
 
 .site-footer p {
-    color: #771114;
+    color: #ffffff;
 }
 
 .site-footer h2,
 .site-footer h3,
 .site-footer h4,
 .site-footer h5 {
-    color: #fff;
+    color: #ffffff;
 }
 
 .site-footer a {
-    color: #771114
+    color: #ffffff
 }
 
 .site-footer a:hover {
@@ -862,7 +879,7 @@ body:after {
 }
 
 .testimonial {
-    max-width: 800px;
+    max-width: 500px;
     margin: 0 auto !important;
     text-align: center;
 }
